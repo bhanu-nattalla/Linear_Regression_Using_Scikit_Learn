@@ -1,0 +1,29 @@
+[project]
+name = "linear-regression-using-scikit-learn"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "bhanu-nattalla", email = "bhanunattala@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "ipykernel>=7.4.0",
+    "matplotlib>=3.11.2",
+    "matplotlib-inline>=0.2.2",
+    "missingno>=0.5.2",
+    "numpy>=2.5.5",
+    "pandas>=3.1.1",
+    "pygments>=2.21.0",
+    "scikit-learn>=1.9.1",
+    "scipy>=1.18.1",
+    "seaborn>=0.13.2",
+    "statsmodels>=0.15.0",
+]
+
+[project.scripts]
+linear-regression-using-scikit-learn = "linear_regression_using_scikit_learn:main"
+
+[build-system]
+requires = ["uv_build>=0.13.6,<0.14.0"]
+build-backend = "uv_build"
